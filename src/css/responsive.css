@@ -1,4 +1,4 @@
-
+/*DASHBOARD*/
 @media (max-width: 1092px) {
 
   .dashboard-search-form .search-form-row {
@@ -41,8 +41,22 @@
     font-size: 12px !important;
     padding: 9px !important;
   }
+
+  .sidebar {
+    width: 180px !important;
+  }
 }
 
+
+@media (max-width: 830px) and (min-width: 769px) {
+
+  .btn-explore {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
 
 @media (max-width: 365px) {
 
@@ -51,11 +65,16 @@
     line-height: 1.15 !important;
   }
 
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-size: 9px !important;
   }
 
-  p, span, label {
+  p,
+  span,
+  label {
     font-size: 7px !important;
   }
 
@@ -79,7 +98,7 @@
   }
 
   .sidebar {
-    width: 150px !important;
+    width: 140px !important;
   }
 
   .nav-item {
@@ -147,45 +166,48 @@
   }
 
   .toast {
-    font-size: 6px !important;
-    padding: 5px 6px !important;
-    max-width: 170px !important;
-    border-radius: 8px !important;
+    font-size: 5px !important;
+    padding: 4px 5px !important;
+    max-width: 110px !important;
+    border-radius: 7px !important;
+    gap: 4px !important;
+    min-width: unset !important;
+    width: fit-content !important;
   }
 
   .toast i {
-    font-size: 8px !important;
+    font-size: 6px !important;
   }
 
   .swal2-popup {
-    width: 175px !important;
-    font-size: 6px !important;
-    padding: 7px !important;
-    border-radius: 10px !important;
+    width: 120px !important;
+    font-size: 5px !important;
+    padding: 4px !important;
+    border-radius: 7px !important;
   }
 
   .swal2-title {
-    font-size: 8px !important;
-    margin-bottom: 5px !important;
+    font-size: 6px !important;
+    margin: 2px 0 !important;
   }
 
   .swal2-html-container {
-    font-size: 6px !important;
-    line-height: 1.2 !important;
+    font-size: 5px !important;
+    line-height: 1.1 !important;
+    margin: 2px 0 !important;
   }
 
   .swal2-icon {
-    transform: scale(0.65) !important;
-    margin: 4px auto !important;
+    transform: scale(0.5) !important;
+    margin: 2px auto !important;
   }
 
   .swal2-actions button {
-    font-size: 6px !important;
-    padding: 4px 6px !important;
-    border-radius: 7px !important;
+    font-size: 5px !important;
+    padding: 2px 4px !important;
+    border-radius: 6px !important;
   }
 }
-
 
 @media (max-width: 260px) {
 
@@ -200,6 +222,22 @@
   .search-section p {
     font-size: 5.5px !important;
     line-height: 1.05 !important;
+  }
+
+  .sidebar {
+    width: 110px !important;
+  }
+
+  .logo-icon {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .sidebar-logo {
+    gap: 6px !important;
+    padding: 8px 6px !important;
   }
 
   #selected-destination {
@@ -237,12 +275,19 @@
   }
 
   .swal2-popup {
-    width: 135px !important;
-    font-size: 5.5px !important;
-    padding: 5px !important;
+    width: 100px !important;
+    font-size: 4.5px !important;
+    padding: 3px !important;
+  }
+
+  .toast {
+    font-size: 4.5px !important;
+    padding: 3px 4px !important;
+    max-width: 90px !important;
+    min-width: unset !important;
+    width: fit-content !important;
   }
 }
-
 
 @media (max-width: 200px) {
 
@@ -256,40 +301,2496 @@
     padding: 3px !important;
   }
 
-  #selected-destination span {
+  .sidebar {
+    width: 90px !important;
+  }
+
+  .logo-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 12px !important;
+  }
+
+  .logo-text {
+    font-size: 7px !important;
+    font-weight: 600 !important;
+  }
+
+  .nav-section-title {
+    font-size: 5px !important;
+    letter-spacing: 0.3px !important;
+  }
+
+  .nav-item span {
+    font-size: 6px !important;
+  }
+
+  .nav-item {
+    padding: 3px 4px !important;
+    gap: 3px !important;
+  }
+
+  .user-name {
+    font-size: 6px !important;
+  }
+
+  .user-status {
     font-size: 5px !important;
   }
 
-  #selected-destination img {
+  .sidebar-user {
+    padding: 4px !important;
+    gap: 4px !important;
+  }
+
+  .sidebar-logo {
+    gap: 4px !important;
+    padding: 8px 6px !important;
+  }
+
+  .toast {
+    font-size: 4px !important;
+    padding: 2px 3px !important;
+    max-width: 75px !important;
+    min-width: unset !important;
+    width: fit-content !important;
+  }
+
+  .toast i {
+    font-size: 4.5px !important;
+  }
+
+  .swal2-popup {
+    width: 85px !important;
+    font-size: 4px !important;
+    padding: 2px !important;
+  }
+
+  .swal2-icon {
+    transform: scale(0.35) !important;
+    margin: 1px auto !important;
+  }
+
+  .header-datetime {
+    font-size: 3.5px !important;
+    padding: 1px !important;
+    gap: 0px !important;
+    line-height: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
+    overflow: visible !important;
+  }
+
+  .header-datetime i {
+    font-size: 3.5px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .header-datetime span {
+    font-size: 3.5px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .top-header {
+    padding: 2px 4px !important;
+    gap: 2px !important;
+  }
+
+  .mobile-menu-btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 18px !important;
+    height: 18px !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    flex-shrink: 0 !important;
+    position: relative !important;
+    z-index: 9999 !important;
+  }
+
+  .mobile-menu-btn i {
+    font-size: 8px !important;
+  }
+
+  .header-title {
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .header-title h1 {
+    font-size: 6px !important;
+    margin: 0 !important;
+    line-height: 1 !important;
+  }
+
+  .header-title p {
+    font-size: 7.5px !important;
+    margin: 0 !important;
+    line-height: 1.1 !important;
+  }
+
+  .header-datetime {
+    display: none !important;
+  }
+
+}
+
+/******************************/
+/*Holidays*/
+
+@media (max-width: 350px) {
+
+  #holidays-view #holidays-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  #holidays-view .view-header-card {
+    padding: 10px !important;
+    gap: 8px !important;
+    border-radius: 14px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  #holidays-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #holidays-view .view-header-content h2 {
+    font-size: 11px !important;
+  }
+
+  #holidays-view .view-header-content p {
+    font-size: 7px !important;
+    line-height: 1.2 !important;
+  }
+
+  #holidays-view .holiday-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    padding: 10px !important;
+    border-radius: 14px !important;
+    margin-bottom: 10px !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #holidays-view .holiday-card * {
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  #holidays-view .holiday-date-box {
+    padding: 6px 8px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #holidays-view .holiday-date-box .day {
+    font-size: 15px !important;
+  }
+
+  #holidays-view .holiday-date-box .month {
+    font-size: 8px !important;
+  }
+
+  #holidays-view .holiday-card h3 {
+    font-size: 11px !important;
+    line-height: 1.1 !important;
+  }
+
+  #holidays-view .holiday-name {
+    font-size: 8px !important;
+    margin-bottom: 6px !important;
+  }
+
+  #holidays-view .holiday-day-badge {
+    font-size: 7px !important;
+    padding: 3px 6px !important;
+    gap: 3px !important;
+    white-space: nowrap !important;
+  }
+
+  #holidays-view .holiday-type-badge {
+    font-size: 6px !important;
+    padding: 2px 5px !important;
+    white-space: nowrap !important;
+  }
+
+  #holidays-view .holiday-action-btn {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 10px !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+
+@media (max-width: 260px) {
+
+  #holidays-view #holidays-content {
+    gap: 6px !important;
+  }
+
+  #holidays-view .view-header-card {
+    padding: 7px !important;
+    gap: 6px !important;
+  }
+
+  #holidays-view .view-header-icon {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 14px !important;
+  }
+
+  #holidays-view .view-header-content h2 {
+    font-size: 9px !important;
+  }
+
+  #holidays-view .view-header-content p {
+    font-size: 6px !important;
+  }
+
+  #holidays-view .holiday-card {
+    padding: 7px !important;
+    border-radius: 12px !important;
+  }
+
+  #holidays-view .holiday-date-box {
+    padding: 5px 6px !important;
+  }
+
+  #holidays-view .holiday-date-box .day {
+    font-size: 13px !important;
+  }
+
+  #holidays-view .holiday-date-box .month {
+    font-size: 7px !important;
+  }
+
+  #holidays-view .holiday-card h3 {
+    font-size: 9px !important;
+  }
+
+  #holidays-view .holiday-name {
+    font-size: 6px !important;
+  }
+
+  #holidays-view .holiday-day-badge {
+    font-size: 6px !important;
+    padding: 2px 5px !important;
+  }
+
+  #holidays-view .holiday-action-btn {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 220px) {
+
+  #holidays-view .view-header-card {
+    padding: 5px 6px !important;
+    gap: 6px !important;
+    border-radius: 8px !important;
+    margin-bottom: 12px !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  #holidays-view .view-header-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 10px !important;
+    border-radius: 5px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #holidays-view .view-header-content {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  #holidays-view .view-header-content h2 {
+    font-size: 7.5px !important;
+    margin-bottom: 2px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.1 !important;
+  }
+
+  #holidays-view .view-header-content p {
+    font-size: 5px !important;
+    line-height: 1.2 !important;
+    display: block !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    max-height: none !important;
+    word-break: break-word !important;
+  }
+
+  #holidays-view .view-header-form {
+    width: 100% !important;
+    margin-top: 4px !important;
+  }
+
+  #holidays-view .view-header-selection {
+    gap: 3px !important;
+  }
+
+  #holidays-view .current-selection-badge {
+    padding: 2px 4px !important;
+    font-size: 5px !important;
+    gap: 3px !important;
+    display: inline-flex !important;
+  }
+
+  #holidays-view .current-selection-badge img {
+    width: 9px !important;
+    height: 5px !important;
+  }
+
+  #holidays-view .current-selection-badge i {
+    font-size: 4.5px !important;
+  }
+}
+
+
+/*********************************/
+/****Events*/
+@media (max-width: 365px) {
+
+  #events-view #events-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+
+  #events-view .event-card {
+    width: 100% !important;
+    padding: 9px !important;
+    border-radius: 14px !important;
+    overflow: hidden !important;
+  }
+
+  #events-view .event-card-image {
+    height: 130px !important;
+  }
+
+  #events-view .event-card-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  #events-view .event-card-category {
+    font-size: 8px !important;
+    padding: 3px 8px !important;
+    border-radius: 12px !important;
+    top: 8px !important;
+    left: 8px !important;
+  }
+
+  #events-view .event-card-save {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 11px !important;
+    top: 8px !important;
+    right: 8px !important;
+  }
+
+  #events-view .event-card-body {
+    padding: 10px !important;
+  }
+
+  #events-view .event-card-body h3 {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 8px !important;
+  }
+
+  #events-view .event-card-info div {
+    font-size: 8px !important;
+    gap: 6px !important;
+  }
+
+  #events-view .event-card-info i {
+    font-size: 8px !important;
+    width: 14px !important;
+  }
+
+  #events-view .event-card-footer {
+    display: flex !important;
+    gap: 8px !important;
+    margin-top: 10px !important;
+  }
+
+  #events-view .btn-event,
+  #events-view .btn-buy-ticket {
+    flex: 1 !important;
+    font-size: 8px !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    justify-content: center !important;
+  }
+
+  #events-view .btn-buy-ticket i {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 260px) {
+
+  #events-view #events-content {
+    gap: 7px !important;
+  }
+
+
+  #events-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 10px !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #events-view .view-header-icon {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 12px !important;
+    border-radius: 6px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #events-view .view-header-content {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  #events-view .view-header-content h2 {
+    font-size: 9px !important;
+    margin-bottom: 2px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.15 !important;
+  }
+
+  #events-view .view-header-content p {
+    font-size: 6px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+
+  #events-view .current-selection-badge {
+    padding: 3px 6px !important;
+    font-size: 6px !important;
+    gap: 4px !important;
+  }
+
+  #events-view .current-selection-badge img {
+    width: 11px !important;
+    height: 6px !important;
+  }
+
+  #events-view .current-selection-badge i {
+    font-size: 5px !important;
+  }
+
+  #events-view .event-card {
+    padding: 7px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+
+  #events-view .event-card-image {
+    height: 110px !important;
+  }
+
+  #events-view .event-card-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  #events-view .event-card-category {
+    font-size: 7px !important;
+    padding: 2px 7px !important;
+    border-radius: 11px !important;
+    top: 6px !important;
+    left: 6px !important;
+  }
+
+  #events-view .event-card-save {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 9px !important;
+    top: 6px !important;
+    right: 6px !important;
+  }
+
+  #events-view .event-card-body {
+    padding: 8px !important;
+  }
+
+  #events-view .event-card-body h3 {
+    font-size: 9px !important;
+    margin-bottom: 6px !important;
+    line-height: 1.15 !important;
+  }
+
+  #events-view .event-card-info div {
+    font-size: 7px !important;
+    gap: 5px !important;
+  }
+
+  #events-view .event-card-info i {
+    font-size: 7px !important;
+    width: 12px !important;
+  }
+
+  #events-view .btn-event,
+  #events-view .btn-buy-ticket {
+    font-size: 7px !important;
+    padding: 6px !important;
+    border-radius: 9px !important;
+    justify-content: center !important;
+  }
+}
+
+
+@media (max-width: 220px) {
+
+  #events-view .view-header-card {
+    padding: 5px 6px !important;
+    gap: 6px !important;
+    border-radius: 8px !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  #events-view .view-header-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 10px !important;
+    border-radius: 5px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #events-view .view-header-content {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  #events-view .view-header-content h2 {
+    font-size: 7.5px !important;
+    margin-bottom: 2px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.1 !important;
+  }
+
+  #events-view .view-header-content p {
+    font-size: 5px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+
+  #events-view .current-selection-badge {
+    padding: 2px 4px !important;
+    font-size: 5px !important;
+    gap: 3px !important;
+  }
+
+  #events-view .current-selection-badge img {
+    width: 9px !important;
+    height: 5px !important;
+  }
+
+  #events-view .current-selection-badge i {
+    font-size: 4.5px !important;
+  }
+
+
+  #events-view .event-card {
+    padding: 6px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+
+  #events-view .event-card-image {
+    height: 95px !important;
+  }
+
+  #events-view .event-card-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  #events-view .event-card-category {
+    font-size: 6px !important;
+    padding: 2px 6px !important;
+    border-radius: 10px !important;
+    top: 6px !important;
+    left: 6px !important;
+  }
+
+  #events-view .event-card-save {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 8px !important;
+    top: 6px !important;
+    right: 6px !important;
+  }
+
+  #events-view .event-card-body {
+    padding: 8px !important;
+  }
+
+  #events-view .event-card-body h3 {
+    font-size: 8px !important;
+    margin-bottom: 6px !important;
+    line-height: 1.1 !important;
+  }
+
+  #events-view .event-card-info div {
+    font-size: 6px !important;
+    gap: 4px !important;
+  }
+
+  #events-view .event-card-info i {
+    width: 10px !important;
+    font-size: 6px !important;
+  }
+
+  #events-view .event-card-footer {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 5px !important;
+    margin-top: 6px !important;
+  }
+
+  #events-view .btn-event,
+  #events-view .btn-buy-ticket {
+    width: 100% !important;
+    font-size: 6px !important;
+    padding: 5px !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+  }
+
+  #events-view .btn-buy-ticket i {
+    font-size: 6px !important;
+  }
+}
+
+
+
+/***********************************/
+/*Weather*/
+
+@media (max-width: 365px) {
+
+  #weather-view #weather-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  #weather-view .view-header-card {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 10px 14px !important;
+    border-radius: 18px !important;
+    gap: 10px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #weather-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #weather-view .view-header-content h2 {
+    font-size: 11px !important;
+  }
+
+  #weather-view .view-header-content p {
+    font-size: 8px !important;
+    white-space: nowrap !important;
+  }
+
+  #weather-view .weather-hero-card {
+    width: 100% !important;
+    padding: 18px !important;
+    border-radius: 18px !important;
+    overflow: hidden !important;
+    text-align: center !important;
+  }
+
+  #weather-view .weather-hero-card i {
+    font-size: 40px !important;
+    margin-bottom: 8px !important;
+  }
+
+  #weather-view .weather-hero-card .temp {
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    margin-top: 6px !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+
+  #weather-view .weather-hero-card .location {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+  }
+
+  #weather-view .weather-hero-card .date {
+    font-size: 10px !important;
+    opacity: 0.8 !important;
+  }
+
+  #weather-view .weather-hero-card .condition {
+    font-size: 12px !important;
+    margin-top: 6px !important;
+  }
+
+  #weather-view .weather-hero-card .feels-like {
+    font-size: 10px !important;
+    margin-top: 4px !important;
+  }
+
+  #weather-view .weather-hero-card .range {
+    font-size: 11px !important;
+    margin-top: 6px !important;
+  }
+}
+
+
+@media (max-width: 260px) {
+
+  #weather-view #weather-content {
+    gap: 7px !important;
+  }
+
+  #weather-view .view-header-card {
+    padding: 8px 10px !important;
+    border-radius: 14px !important;
+  }
+
+  #weather-view .view-header-icon {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+  }
+
+  #weather-view .view-header-content h2 {
+    font-size: 9px !important;
+  }
+
+  #weather-view .view-header-content p {
+    font-size: 6px !important;
+  }
+
+  #weather-view .weather-hero-card {
+    padding: 14px !important;
+    border-radius: 16px !important;
+  }
+
+  #weather-view .weather-hero-card i {
+    font-size: 32px !important;
+  }
+
+  #weather-view .weather-hero-card .temp {
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    margin-top: 6px !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+
+  #weather-view .weather-hero-card .location {
+    font-size: 11px !important;
+  }
+
+  #weather-view .weather-hero-card .condition {
+    font-size: 10px !important;
+  }
+
+  #weather-view .weather-hero-card .range {
+    font-size: 10px !important;
+  }
+}
+
+
+@media (max-width: 220px) {
+
+  #weather-view .view-header-card {
+    padding: 5px 6px !important;
+    gap: 6px !important;
+    border-radius: 10px !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  #weather-view .view-header-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 10px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #weather-view .view-header-content {
+    min-width: 0 !important;
+    flex: 1 !important;
+  }
+
+  #weather-view .view-header-content h2 {
+    font-size: 7px !important;
+    margin-bottom: 2px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.1 !important;
+  }
+
+  #weather-view .view-header-content p {
+    font-size: 5px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+
+  #weather-view .view-header-selection span {
+    font-size: 5px !important;
+    font-weight: 500 !important;
+  }
+
+  #weather-view .view-header-selection {
+    padding: 2px 4px !important;
+    gap: 3px !important;
+  }
+
+  #weather-view .view-header-selection img {
+    width: 22px !important;
+    height: 14px !important;
+  }
+
+  #weather-view .weather-hero-card {
+    padding: 10px !important;
+    border-radius: 14px !important;
+  }
+
+  #weather-view .weather-hero-card i {
+    font-size: 26px !important;
+    margin-bottom: 6px !important;
+  }
+
+  #weather-view .weather-hero-card .temp {
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    margin-top: 6px !important;
+    display: block !important;
+    opacity: 1 !important;
+  }
+
+  #weather-view .weather-hero-card .condition {
+    font-size: 10px !important;
+    margin-top: 6px !important;
+    font-weight: 600 !important;
+  }
+
+  #weather-view .weather-hero-card .feels-like {
+    font-size: 9px !important;
+    margin-top: 4px !important;
+  }
+
+  #weather-view .weather-hero-card .range {
+    font-size: 8px !important;
+    margin-top: 6px !important;
+  }
+}
+
+/* =========================================
+    FINAL WEATHER FIX (ONLY 2 THINGS)
+   1. Temperature Under Cloud Works
+   2. Location Icon Smaller
+   + Temp Unit Spacing Fixed
+========================================= */
+
+@media (max-width: 365px) {
+
+  #weather-view .weather-hero-temp .temp-value {
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+    line-height: 1 !important;
+  }
+
+  #weather-view .weather-hero-temp .temp-unit {
+    font-size: 14px !important;
+    margin-top: 6px !important;
+
+    margin-left: 7px !important;
+  }
+
+  #weather-view .weather-location i {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 260px) {
+
+  #weather-view .weather-hero-temp .temp-value {
+    font-size: 26px !important;
+  }
+
+  #weather-view .weather-hero-temp .temp-unit {
+    font-size: 12px !important;
+    margin-left: 6px !important;
+  }
+
+  #weather-view .weather-location i {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 220px) {
+
+  #weather-view .weather-hero-temp .temp-value {
+    font-size: 22px !important;
+  }
+
+  #weather-view .weather-hero-temp .temp-unit {
+    font-size: 10px !important;
+    margin-left: 5px !important;
+  }
+
+  #weather-view .weather-location i {
+    font-size: 6px !important;
+  }
+}
+
+
+
+
+
+/*#########################################*/
+/*Long Weekends*/
+/****Long Weekends*/
+
+
+
+@media (max-width: 365px) {
+
+  #long-weekends-view .view-header-card {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    padding: 10px 14px !important;
+    border-radius: 18px !important;
+    gap: 10px !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #long-weekends-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #long-weekends-view .view-header-content h2 {
+    font-size: 11px !important;
+  }
+
+  #long-weekends-view .view-header-content p {
+    font-size: 8px !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .current-selection-badge {
+    padding: 6px 12px !important;
+    font-size: 10px !important;
+    border-radius: 14px !important;
+    gap: 6px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .current-selection-badge img {
+    width: 20px !important;
+    height: 13px !important;
+  }
+
+  #long-weekends-view .current-selection-badge i {
+    font-size: 10px !important;
+  }
+
+  #long-weekends-view #lw-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  #long-weekends-view .longweekend-card {
+    width: 100% !important;
+    padding: 9px !important;
+    border-radius: 14px !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  #long-weekends-view .longweekend-badge {
+    font-size: 8px !important;
+    padding: 3px 8px !important;
+    border-radius: 12px !important;
+    top: 8px !important;
+    left: 8px !important;
+  }
+
+  #long-weekends-view .favorite-btn {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 11px !important;
+    top: 8px !important;
+    right: 8px !important;
+  }
+
+  #long-weekends-view .longweekend-title {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+    margin-top: 25px !important;
+    margin-bottom: 8px !important;
+  }
+
+  #long-weekends-view .longweekend-date {
+    font-size: 8px !important;
+    gap: 6px !important;
+  }
+
+  #long-weekends-view .longweekend-date i {
+    font-size: 8px !important;
+    width: 14px !important;
+  }
+
+  #long-weekends-view .longweekend-note {
+    font-size: 8px !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media (max-width: 290px) {
+
+  #long-weekends-view #lw-content {
+    gap: 7px !important;
+  }
+
+  #long-weekends-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 10px !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #long-weekends-view .view-header-icon {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 12px !important;
+    border-radius: 6px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #long-weekends-view .view-header-content h2 {
+    font-size: 9px !important;
+    margin-bottom: 2px !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.15 !important;
+  }
+
+  #long-weekends-view .view-header-content p {
+    font-size: 6px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+
+  #long-weekends-view .current-selection-badge {
+    padding: 3px 6px !important;
+    font-size: 6px !important;
+    gap: 4px !important;
+  }
+
+  #long-weekends-view .current-selection-badge img {
+    width: 11px !important;
+    height: 6px !important;
+  }
+
+  #long-weekends-view .longweekend-card {
+    padding: 7px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+
+  #long-weekends-view .longweekend-badge {
+    font-size: 7px !important;
+    padding: 2px 7px !important;
+    border-radius: 11px !important;
+    top: 6px !important;
+    left: 6px !important;
+  }
+
+  #long-weekends-view .favorite-btn {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 9px !important;
+    top: 6px !important;
+    right: 6px !important;
+  }
+
+  #long-weekends-view .longweekend-title {
+    font-size: 9px !important;
+    margin-top: 22px !important;
+    margin-bottom: 6px !important;
+    line-height: 1.15 !important;
+  }
+
+  #long-weekends-view .longweekend-date {
+    font-size: 7px !important;
+    gap: 5px !important;
+  }
+
+  #long-weekends-view .longweekend-note {
+    font-size: 7px !important;
+    padding: 6px !important;
+    border-radius: 9px !important;
+  }
+}
+
+
+@media (min-width: 769.001px) {
+
+  #long-weekends-view .view-header-card {
+    gap: 18px !important;
+  }
+
+  #long-weekends-view .current-selection-badge {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    border-radius: 14px !important;
+    gap: 6px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .current-selection-badge img {
+    width: 20px !important;
+    height: 13px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #long-weekends-view .current-selection-badge i {
+    font-size: 11px !important;
+  }
+}
+
+
+@media (max-width: 769px) {
+
+  #long-weekends-view .view-header-card {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+
+  #long-weekends-view .header-selection-badge {
+    position: static !important;
+    width: 100% !important;
+    margin-top: 8px !important;
+  }
+
+  #long-weekends-view .current-selection-badge {
+    width: fit-content !important;
+    max-width: 100% !important;
+
+    padding: 8px 14px !important;
+    gap: 8px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .current-selection-badge span {
+    font-size: 12px !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .current-selection-badge img {
+    width: 22px !important;
+    height: 14px !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+
+
+@media (max-width: 235px) {
+
+  #long-weekends-view .view-header-card {
+    width: 100% !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+
+    padding: 5px 6px !important;
+    gap: 6px !important;
+
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #long-weekends-view .view-header-icon {
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 10px !important;
+    flex-shrink: 0 !important;
+    border-radius: 5px !important;
+  }
+
+  #long-weekends-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  #long-weekends-view .view-header-content h2 {
+    font-size: 7px !important;
+    margin-bottom: 2px !important;
+
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.1 !important;
+  }
+
+  #long-weekends-view .view-header-content p {
+    font-size: 5px !important;
+
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1.2 !important;
+  }
+
+  #long-weekends-view .current-selection-badge {
+    padding: 2px 4px !important;
+    gap: 3px !important;
+
+    border-radius: 50px !important;
+    flex-shrink: 0 !important;
+
+    max-width: none !important;
+    overflow: visible !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .current-selection-badge span {
+    font-size: 5px !important;
+    font-weight: 500 !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+  }
+
+  #long-weekends-view .selection-city,
+  #long-weekends-view .selection-year {
+    font-size: 5px !important;
+    opacity: 0.8 !important;
+  }
+
+  #long-weekends-view .selection-city::before,
+  #long-weekends-view .selection-year::before {
+    margin: 0 2px !important;
+    font-size: 5px !important;
+  }
+
+  #long-weekends-view .current-selection-badge i {
+    font-size: 5px !important;
+  }
+
+  #long-weekends-view .current-selection-badge img {
+    width: 22px !important;
+    height: 14px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #long-weekends-view .longweekend-card {
+    padding: 6px !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+
+  #long-weekends-view .longweekend-badge {
+    font-size: 6px !important;
+    padding: 2px 6px !important;
+    border-radius: 10px !important;
+    top: 6px !important;
+    left: 6px !important;
+  }
+
+  #long-weekends-view .favorite-btn {
+    width: 22px !important;
+    height: 22px !important;
+    font-size: 8px !important;
+    top: 6px !important;
+    right: 6px !important;
+  }
+
+  #long-weekends-view .longweekend-title {
+    font-size: 8px !important;
+    margin-top: 20px !important;
+    margin-bottom: 6px !important;
+    line-height: 1.1 !important;
+  }
+
+  #long-weekends-view .longweekend-date {
+    font-size: 6px !important;
+    gap: 4px !important;
+  }
+
+  #long-weekends-view .longweekend-note {
+    font-size: 6px !important;
+    padding: 5px !important;
+    border-radius: 8px !important;
+  }
+}
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++*/
+/*Currency*/
+
+
+
+@media (max-width: 365px) {
+
+  #currency-view .view-header-card {
+    padding: 10px !important;
+    gap: 10px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+  }
+
+  #currency-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #currency-view .view-header-content h2 {
+    font-size: 11px !important;
+  }
+
+  #currency-view .view-header-content p {
+    font-size: 7px !important;
+    line-height: 1.2 !important;
+  }
+
+  #currency-view .currency-card {
+    padding: 10px !important;
+    border-radius: 14px !important;
+    width: 100% !important;
+  }
+
+  #currency-view input,
+  #currency-view select {
+    font-size: 8px !important;
+    padding: 6px !important;
+    height: 28px !important;
+    border-radius: 10px !important;
+  }
+
+  #currency-view button {
+    font-size: 8px !important;
+    padding: 7px !important;
+    border-radius: 10px !important;
+  }
+
+  #currency-view .conversion-result {
+    padding: 8px !important;
+    border-radius: 12px !important;
+    font-size: 8px !important;
+  }
+
+  #currency-view .quick-card {
+    padding: 7px !important;
+    border-radius: 12px !important;
+    font-size: 7px !important;
+  }
+}
+
+
+@media (max-width: 250px) {
+
+  #currency-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 12px !important;
+  }
+
+  #currency-view .view-header-icon {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 13px !important;
+  }
+
+  #currency-view .view-header-content h2 {
+    font-size: 9px !important;
+  }
+
+  #currency-view .view-header-content p {
+    font-size: 6px !important;
+  }
+
+  #currency-view .currency-card {
+    padding: 7px !important;
+    border-radius: 12px !important;
+  }
+
+  #currency-view input,
+  #currency-view select {
+    font-size: 7px !important;
+    padding: 4px !important;
+    height: 24px !important;
+  }
+
+  #currency-view button {
+    font-size: 7px !important;
+    padding: 5px !important;
+  }
+
+  #currency-view .conversion-result {
+    font-size: 7px !important;
+    padding: 6px !important;
+  }
+
+  #currency-view .quick-card {
+    padding: 5px !important;
+    font-size: 6px !important;
+    border-radius: 10px !important;
+  }
+}
+
+
+@media (max-width: 200px) {
+
+  #currency-view .view-header-card {
+    padding: 4px !important;
+    gap: 4px !important;
+    border-radius: 10px !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  #currency-view .view-header-icon {
+    width: 18px !important;
+    height: 18px !important;
+    font-size: 10px !important;
+    margin: 0 auto !important;
+    flex-shrink: 0 !important;
+  }
+
+  #currency-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  #currency-view .view-header-content h2 {
+    font-size: 6px !important;
+    margin-bottom: 1px !important;
+    line-height: 1.05 !important;
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  #currency-view .view-header-content p {
+    font-size: 4.5px !important;
+    line-height: 1.1 !important;
+    white-space: nowrap !important;
+
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  #currency-view .currency-card {
+    padding: 5px !important;
+    border-radius: 8px !important;
+  }
+
+  #currency-view input,
+  #currency-view select {
+    font-size: 5px !important;
+    padding: 3px !important;
+    height: 20px !important;
+  }
+
+  #currency-view button {
+    font-size: 5px !important;
+    padding: 3px !important;
+  }
+
+  #currency-view .quick-card {
+    font-size: 4px !important;
+    padding: 3px !important;
+  }
+}
+
+@media (max-width: 222px) {
+
+  /* ===============================
+    Quick Convert WIDTH FIX 
+  =============================== */
+
+  #currency-view .popular-currencies-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    width: 100% !important;
+  }
+
+  #currency-view .popular-currency-card {
+    width: 100% !important;
+    padding: 4px 5px !important;
+    gap: 5px !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    overflow: hidden !important;
+  }
+
+  #currency-view .popular-currency-card .flag {
+    width: 16px !important;
+    height: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #currency-view .popular-currency-card .code {
+    font-size: 6px !important;
+    font-weight: 700 !important;
+  }
+
+  #currency-view .popular-currency-card .name {
+    font-size: 5px !important;
+    opacity: 0.7 !important;
+  }
+
+  #currency-view .popular-currency-card .rate {
+    font-size: 6px !important;
+    font-weight: 700 !important;
+    flex-shrink: 0 !important;
+
+    max-width: none !important;
+    overflow: visible !important;
+    white-space: nowrap !important;
+  }
+
+  #currency-view .popular-currency-card .info {
+    flex: 1 !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+}
+
+
+
+/********************************/
+/*Sun Times*/
+
+
+
+
+@media (max-width: 365px) {
+
+  #sun-times-view .view-header-card {
+    padding: 10px !important;
+    gap: 10px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
+  #sun-times-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #sun-times-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  #sun-times-view .view-header-content h2 {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+  }
+
+  #sun-times-view .view-header-content p {
+    font-size: 7px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+  }
+
+  #sun-times-view .current-selection-badge {
+    padding: 6px 12px !important;
+    font-size: 9px !important;
+    gap: 6px !important;
+    border-radius: 14px !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  #sun-times-view .current-selection-badge img {
+    width: 18px !important;
+    height: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #sun-times-view .sun-main-card {
+    height: auto !important;
+    padding: 16px !important;
+  }
+
+  #sun-times-view .sun-main-header {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 18px !important;
+    text-align: center !important;
+    gap: 6px !important;
+    padding: 18px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-location h2 {
+    font-size: 14px !important;
+  }
+
+  #sun-times-view .sun-location p {
+    font-size: 9px !important;
+  }
+
+  #sun-times-view .sun-date-display .date {
+    font-size: 10px !important;
+  }
+
+  #sun-times-view .sun-times-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+    padding: 14px !important;
+
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-time-card {
+    padding: 12px !important;
+    border-radius: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-time-card .icon {
+    font-size: 16px !important;
+    margin-bottom: 6px !important;
+  }
+
+  #sun-times-view .sun-time-card .label {
+    font-size: 7px !important;
+  }
+
+  #sun-times-view .sun-time-card .time {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+  }
+
+  #sun-times-view .sun-time-card .sub-label {
+    font-size: 6px !important;
+  }
+
+  #sun-times-view .day-length-card {
+    padding: 14px !important;
+    border-radius: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .day-length-card h3 {
+    font-size: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  #sun-times-view .day-stat .value {
+    font-size: 11px !important;
+  }
+
+  #sun-times-view .day-stat .label {
+    font-size: 7px !important;
+  }
+}
+
+@media (max-width: 230px) {
+
+  #sun-times-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 12px !important;
+  }
+
+  #sun-times-view .view-header-icon {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 12px !important;
+  }
+
+  #sun-times-view .view-header-content h2 {
+    font-size: 8px !important;
+  }
+
+  #sun-times-view .view-header-content p {
+    font-size: 5.5px !important;
+  }
+
+  #sun-times-view .current-selection-badge {
+    padding: 3px 6px !important;
+    font-size: 6px !important;
+    gap: 4px !important;
+    margin: 0 auto !important;
+  }
+
+  #sun-times-view .current-selection-badge span {
+    font-size: 6px !important;
+  }
+
+  #sun-times-view .current-selection-badge img {
     width: 14px !important;
     height: 10px !important;
   }
 
-  select,
-  .form-select {
-    font-size: 5px !important;
-    height: 18px !important;
+  #sun-times-view .sun-times-grid {
+    grid-template-columns: 1fr !important;
+    gap: 7px !important;
+    padding: 12px !important;
   }
 
-  .country-time-card {
-    padding: 2px 3px !important;
-    gap: 1px !important;
-    line-height: 1 !important;
+  #sun-times-view .sun-time-card {
+    padding: 10px !important;
   }
 
-  .toast {
-    font-size: 5px !important;
-    padding: 3px !important;
-    max-width: 120px !important;
+  #sun-times-view .sun-time-card .time {
+    font-size: 10px !important;
+  }
+
+  #sun-times-view .day-length-card {
+    padding: 12px !important;
+  }
+}
+
+
+
+/**************************************/
+/*My Plans  and some from Sun Times*/
+
+
+
+@media (max-width: 365px) {
+  #sun-times-view .view-header-card {
+    padding: 10px !important;
+    gap: 10px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
+  #sun-times-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #sun-times-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  #sun-times-view .view-header-content h2 {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+  }
+
+  #sun-times-view .view-header-content p {
+    font-size: 7px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+  }
+
+  #sun-times-view .current-selection-badge {
+    padding: 6px 12px !important;
+    font-size: 9px !important;
+    gap: 6px !important;
+    border-radius: 14px !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  #sun-times-view .current-selection-badge img {
+    width: 18px !important;
+    height: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+
+  #sun-times-view .sun-main-card {
+    height: auto !important;
+    padding: 16px !important;
+  }
+
+  #sun-times-view .sun-main-header {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 18px !important;
+    text-align: center !important;
+    gap: 6px !important;
+    padding: 18px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-location h2 {
+    font-size: 14px !important;
+  }
+
+  #sun-times-view .sun-location p {
+    font-size: 9px !important;
+  }
+
+  #sun-times-view .sun-date-display .date {
+    font-size: 10px !important;
+  }
+
+  #sun-times-view .sun-times-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+    padding: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-time-card {
+    padding: 12px !important;
+    border-radius: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-time-card .icon {
+    font-size: 16px !important;
+    margin-bottom: 6px !important;
+  }
+
+  #sun-times-view .sun-time-card .label {
+    font-size: 7px !important;
+  }
+
+  #sun-times-view .sun-time-card .time {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+  }
+
+  #sun-times-view .sun-time-card .sub-label {
+    font-size: 6px !important;
+  }
+
+
+  #sun-times-view .day-length-card {
+    padding: 14px !important;
+    border-radius: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .day-length-card h3 {
+    font-size: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  #sun-times-view .day-stat .value {
+    font-size: 11px !important;
+  }
+
+  #sun-times-view .day-stat .label {
+    font-size: 7px !important;
+  }
+}
+
+
+@media (max-width: 230px) {
+
+  #sun-times-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 12px !important;
+  }
+
+  #sun-times-view .view-header-icon {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 12px !important;
+  }
+
+  #sun-times-view .view-header-content h2 {
+    font-size: 8px !important;
+  }
+
+  #sun-times-view .view-header-content p {
+    font-size: 5.5px !important;
+  }
+
+  #sun-times-view .current-selection-badge {
+    padding: 3px 6px !important;
+    font-size: 6px !important;
+    gap: 4px !important;
+    margin: 0 auto !important;
+  }
+
+  #sun-times-view .current-selection-badge span {
+    font-size: 6px !important;
+  }
+
+  #sun-times-view .current-selection-badge img {
+    width: 14px !important;
+    height: 10px !important;
+  }
+
+  #sun-times-view .sun-times-grid {
+    grid-template-columns: 1fr !important;
+    gap: 7px !important;
+    padding: 12px !important;
+  }
+
+  #sun-times-view .sun-time-card {
+    padding: 10px !important;
+  }
+
+  #sun-times-view .sun-time-card .time {
+    font-size: 10px !important;
+  }
+
+  #sun-times-view .day-length-card {
+    padding: 12px !important;
+  }
+}
+
+
+@media (max-width: 769px) and (min-width: 365.0000001px) {
+
+  #my-plans-view .view-header-card {
+    padding: 16px !important;
+    gap: 14px !important;
+    border-radius: 18px !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+
+    flex-wrap: nowrap !important;
+    width: 100% !important;
+  }
+
+  #my-plans-view .view-header-icon {
+    width: 48px !important;
+    height: 48px !important;
+    font-size: 20px !important;
+    border-radius: 14px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #my-plans-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  #my-plans-view .view-header-content h2 {
+    font-size: 18px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 4px !important;
+  }
+
+  #my-plans-view .view-header-content p {
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+  }
+
+  #my-plans-view .view-header-card button {
+    width: auto !important;
+    padding: 10px 16px !important;
+    font-size: 11px !important;
+    border-radius: 12px !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 769px) {
+
+  #my-plans-view .view-header-card {
+    padding: 14px !important;
+    gap: 12px !important;
+    border-radius: 18px !important;
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
+  #my-plans-view .view-header-icon {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 16px !important;
+    border-radius: 10px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #my-plans-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  #my-plans-view .view-header-content h2 {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+  }
+
+  #my-plans-view .view-header-content p {
+    font-size: 9px !important;
+    line-height: 1.3 !important;
+    white-space: normal !important;
+  }
+}
+
+@media (max-width: 365px) {
+
+  #sun-times-view .view-header-card {
+    padding: 10px !important;
+    gap: 10px !important;
+    border-radius: 16px !important;
+    width: 100% !important;
+
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
+  #sun-times-view .view-header-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #sun-times-view .view-header-content {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+
+  #sun-times-view .view-header-content h2 {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+  }
+
+  #sun-times-view .view-header-content p {
+    font-size: 7px !important;
+    line-height: 1.2 !important;
+    white-space: normal !important;
+  }
+
+  #sun-times-view .current-selection-badge {
+    padding: 6px 12px !important;
+    font-size: 9px !important;
+    gap: 6px !important;
+    border-radius: 14px !important;
+
+    width: fit-content !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  #sun-times-view .current-selection-badge img {
+    width: 18px !important;
+    height: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+  #sun-times-view .sun-main-card {
+    height: auto !important;
+    padding: 16px !important;
+  }
+
+  #sun-times-view .sun-main-header {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 18px !important;
+
+    text-align: center !important;
+    gap: 6px !important;
+
+    padding: 18px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-location h2 {
+    font-size: 14px !important;
+  }
+
+  #sun-times-view .sun-location p {
+    font-size: 9px !important;
+  }
+
+  #sun-times-view .sun-date-display .date {
+    font-size: 10px !important;
+  }
+
+  #sun-times-view .sun-times-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+    padding: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-time-card {
+    padding: 12px !important;
+    border-radius: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .sun-time-card .icon {
+    font-size: 16px !important;
+    margin-bottom: 6px !important;
+  }
+
+  #sun-times-view .sun-time-card .label {
+    font-size: 7px !important;
+  }
+
+  #sun-times-view .sun-time-card .time {
+    font-size: 12px !important;
+    font-weight: 800 !important;
+  }
+
+  #sun-times-view .sun-time-card .sub-label {
+    font-size: 6px !important;
+  }
+
+  #sun-times-view .day-length-card {
+    padding: 14px !important;
+    border-radius: 14px !important;
+    height: auto !important;
+  }
+
+  #sun-times-view .day-length-card h3 {
+    font-size: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  #sun-times-view .day-stat .value {
+    font-size: 11px !important;
+  }
+
+  #sun-times-view .day-stat .label {
+    font-size: 7px !important;
+  }
+
+  #my-plans-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 10px !important;
+
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  #my-plans-view .view-header-icon {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 12px !important;
+    border-radius: 6px !important;
+  }
+
+  #my-plans-view .view-header-content h2 {
+    font-size: 9px !important;
+  }
+
+  #my-plans-view .view-header-content p {
+    font-size: 6px !important;
+  }
+
+  #my-plans-view #plans-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  #my-plans-view .plan-card {
+    width: 100% !important;
+    padding: 10px !important;
+    border-radius: 14px !important;
+    overflow: hidden !important;
+  }
+
+  #my-plans-view .plans-alert,
+  #my-plans-view .remove-alert {
+    padding: 12px !important;
+    font-size: 9px !important;
+    border-radius: 14px !important;
   }
 
   .swal2-popup {
-    width: 110px !important;
-    font-size: 5px !important;
-    padding: 4px !important;
+    width: 250px !important;
+    padding: 16px !important;
+    border-radius: 16px !important;
   }
 
-  .swal2-icon {
-    transform: scale(0.55) !important;
+  .swal2-title {
+    font-size: 12px !important;
+    line-height: 1.3 !important;
   }
+
+  .swal2-html-container {
+    font-size: 9.5px !important;
+    line-height: 1.4 !important;
+  }
+
+  .swal2-actions button {
+    font-size: 9px !important;
+    padding: 6px 10px !important;
+    border-radius: 9px !important;
+  }
+}
+
+
+@media (max-width: 260px) {
+
+  .swal2-popup {
+    width: 170px !important;
+    padding: 10px !important;
+    border-radius: 13px !important;
+  }
+}
+
+@media (max-width: 230px) {
+
+  #sun-times-view .view-header-card {
+    padding: 7px !important;
+    gap: 7px !important;
+    border-radius: 12px !important;
+  }
+
+  #sun-times-view .view-header-icon {
+    width: 26px !important;
+    height: 26px !important;
+    font-size: 12px !important;
+  }
+
+  #sun-times-view .view-header-content h2 {
+    font-size: 8px !important;
+  }
+
+  #sun-times-view .view-header-content p {
+    font-size: 5.5px !important;
+  }
+
+  #sun-times-view .current-selection-badge {
+    padding: 3px 6px !important;
+    font-size: 6px !important;
+    gap: 4px !important;
+    margin: 0 auto !important;
+  }
+
+  #sun-times-view .current-selection-badge img {
+    width: 14px !important;
+    height: 10px !important;
+  }
+
+  #sun-times-view .sun-times-grid {
+    grid-template-columns: 1fr !important;
+    gap: 7px !important;
+    padding: 12px !important;
+  }
+
+  #sun-times-view .sun-time-card {
+    padding: 10px !important;
+  }
+
+  #sun-times-view .day-length-card {
+    padding: 12px !important;
+  }
+}
+
+
+/* =========================
+   Fix Go to Dashboard Button Text
+========================= */
+@media (max-width: 220px) {
+  button.go-dashboard-btn {
+    font-size: 7px !important;
+  }
+
+}
+
+
+/* =========================
+   Fix Start Exploring Button Text
+========================= */
+@media (max-width: 220px) {
+
+  #my-plans-view button.btn-primary {
+    font-size: 7px !important;
+  }
+
+}
+
+
+/* =========================
+   Currency Empty State FIX (Smaller Text)
+========================= */
+@media (max-width: 220px) {
+  #currency-view .empty-state h3 {
+    font-size: 6.5px !important;
+    line-height: 1.15 !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    white-space: normal !important;
+
+    text-align: center !important;
+  }
+
+  #currency-view .empty-state p {
+    font-size: 4.8px !important;
+    line-height: 1.2 !important;
+
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    white-space: normal !important;
+
+    text-align: center !important;
+  }
+
+}
+
+
+/* ===============================
+   Sidebar My Plans Fix Only
+================================ */
+@media (max-width: 265px) {
+  a[data-view="my-plans"] span {
+    font-size: 7px !important;
+    letter-spacing: -0.3px !important;
+  }
+
+  a[data-view="my-plans"] {
+    gap: 4px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  a[data-view="my-plans"] .nav-badge {
+    min-width: 14px !important;
+    height: 14px !important;
+    font-size: 7px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
+  }
+
 }
