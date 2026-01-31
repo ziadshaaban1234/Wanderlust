@@ -66,6 +66,7 @@ https://github.com/ziadshaaban1234/Wanderlust
 ```bash
 Wanderlust/
 ├── index.html
+├── README.md
 └── src/
     ├── css/
     │   ├── base.css
